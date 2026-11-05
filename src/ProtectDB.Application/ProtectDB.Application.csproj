@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Слой прикладной логики: сервисы администрирования, доступа и аудита. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProtectDB.Data\ProtectDB.Data.csproj" />
+    <ProjectReference Include="..\ProtectDB.Domain\ProtectDB.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.14" />
+  </ItemGroup>
+
+</Project>

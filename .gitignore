@@ -1,0 +1,21 @@
+# Сборка .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+
+# Локальные БД SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Прочее
+*.log
